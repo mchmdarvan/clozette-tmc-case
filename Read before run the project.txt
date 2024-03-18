@@ -1,0 +1,9 @@
+Make sure, to run this command to copy the .env file
+"copy .env.example to .env" and after that run this one too "php artisan:key generate"
+
+Those command was supposed to set an .env for server settings.
+
+After that, please run either "composer install" or "composer update", to install the library that wasn't included in repository.
+
+If you want check the database, i'll already provide it in the dump sql server if you want to use export feautre.
+But, if you want to run the migration it's also fine, since i already provide for the faker on the categories table.
