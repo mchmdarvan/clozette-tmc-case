@@ -7,3 +7,5 @@ After that, please run either "composer install" or "composer update", to instal
 
 If you want check the database, i'll already provide it in the dump sql server if you want to use export feautre.
 But, if you want to run the migration it's also fine, since i already provide for the faker on the categories table.
+
+I use, API_KEY for the authorization and put it in the .env file, make sure to add 'x-api-key' in the headers if you use postman for testing. I also provide the collection json if you want, so you can just import it. It's in dump file also
